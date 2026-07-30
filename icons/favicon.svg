@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">Private Proof C Emblem</title>
+  <desc id="desc">Small-size derivative of the approved Private Proof C emblem on the Ivory Proof field: outer calibration ring, four cardinal marks, the eye geometry, and the brass proof dot. Micro-arcs, the diamond structure, and the fine-line shadows are consolidated away for legibility at 16 and 32 pixels.</desc>
+  <defs>
+    <radialGradient id="brass-proof-radial" cx="36%" cy="30%" r="69%">
+      <stop offset="0%" stop-color="#FFF3CF"/>
+      <stop offset="22%" stop-color="#EEC978"/>
+      <stop offset="52%" stop-color="#B98236"/>
+      <stop offset="78%" stop-color="#755023"/>
+      <stop offset="100%" stop-color="#3F2A15"/>
+    </radialGradient>
+    <linearGradient id="brass-stroke" x1="13" y1="8" x2="50" y2="56" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#D8B36A"/>
+      <stop offset="42%" stop-color="#9B6B2C"/>
+      <stop offset="68%" stop-color="#6F491F"/>
+      <stop offset="100%" stop-color="#BC873B"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" fill="#F6F4EF"/>
+  <g fill="none" stroke="url(#brass-stroke)" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="32" cy="32" r="27.9" stroke-width="4.4"/>
+    <g stroke-width="3.4">
+      <path d="M32 7.6v5.4"/>
+      <path d="M32 56.4v-5.4"/>
+      <path d="M7.6 32h5.4"/>
+      <path d="M56.4 32h-5.4"/>
+    </g>
+    <g stroke-width="3.7">
+      <path d="M12.75 32C16.55 31.1 20.85 28.35 25.65 25.35C28.35 23.65 31.8 22.92 35.35 23.45C39.55 24.08 43.25 26.3 45.65 29.05"/>
+      <path d="M45.65 34.95C43.25 37.7 39.55 39.92 35.35 40.55C31.8 41.08 28.35 40.35 25.65 38.65C20.85 35.65 16.55 32.9 12.75 32"/>
+    </g>
+  </g>
+  <g>
+    <circle cx="32" cy="32" r="6.6" fill="url(#brass-proof-radial)"/>
+    <circle cx="32" cy="32" r="6.6" fill="none" stroke="#68431D" stroke-width="1.1"/>
+    <circle cx="29.9" cy="29.8" r="1.9" fill="#FFF5D7" opacity=".5"/>
+  </g>
+</svg>

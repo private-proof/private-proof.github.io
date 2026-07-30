@@ -4,22 +4,45 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Private Proof</title>
-    <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+    <!-- Platform identity (V-9). The ICO is declared first as the legacy
+         fallback: browsers that understand the scalable mark prefer the SVG
+         declared after it. One fixed Ivory-backed identity serves both
+         appearances, so no icon link carries a color-scheme condition. -->
+    <link rel="icon" href="/favicon.ico" sizes="16x16 32x32" />
+    <link rel="icon" href="/icons/favicon.svg" type="image/svg+xml" />
     <link rel="manifest" href="/manifest.webmanifest" />
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-    <meta name="theme-color" content="#f7f4ef" />
+    <link rel="apple-touch-icon" href="/icons/apple-touch-icon-180.png" />
+    <!-- data-scope repeats each meta's authored media condition so an explicit
+         Appearance choice can narrow it and "Match Device" can restore it exactly.
+         index.html stays the only place a color-scheme query is written outside
+         src/index.css; no script ever composes one. -->
+    <meta name="theme-color" content="#F6F4EF" media="(prefers-color-scheme: light)" data-scope="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#161512" media="(prefers-color-scheme: dark)" data-scope="(prefers-color-scheme: dark)" />
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="default" />
     <meta name="apple-mobile-web-app-title" content="Private Proof" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap"
-      rel="stylesheet"
-    />
-    <script type="module" crossorigin src="/assets/index-rGl1HGlL.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-BevK9WGd.css">
+    <script>
+      // Appearance bootstrap (V-7B). Synchronous and first-paint-critical: it
+      // stamps an explicit choice before the browser paints, so an explicit
+      // Midnight never flashes Ivory (or the reverse). "system" and any
+      // unreadable value leave the document alone, and the media query in
+      // index.css governs. Storage access is wrapped because a blocked or full
+      // store must degrade to Match Device, never break the page.
+      try {
+        var pp = localStorage.getItem('pp.appearance')
+        if (pp === 'ivory' || pp === 'midnight') {
+          document.documentElement.setAttribute('data-appearance', pp)
+          var m = document.getElementsByName('theme-color')
+          if (m.length === 2) {
+            m[0].media = pp === 'ivory' ? 'all' : 'not all'
+            m[1].media = pp === 'midnight' ? 'all' : 'not all'
+          }
+        }
+      } catch (e) {}
+    </script>
+    <script type="module" crossorigin src="/assets/index-BrSGhfqA.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-B0_SEoxo.css">
   </head>
   <body>
     <div id="root"></div>

@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">Private Proof C Emblem Ivory Proof</title>
+  <desc id="desc">Ivory Proof candidate for the selected Private Proof C emblem. Geometry matches the Midnight Proof SVG.</desc>
+  <defs>
+    <radialGradient id="brass-proof-radial" cx="36%" cy="30%" r="69%">
+      <stop offset="0%" stop-color="#FFF3CF"/>
+      <stop offset="22%" stop-color="#EEC978"/>
+      <stop offset="52%" stop-color="#B98236"/>
+      <stop offset="78%" stop-color="#755023"/>
+      <stop offset="100%" stop-color="#3F2A15"/>
+    </radialGradient>
+    <linearGradient id="brass-stroke" x1="13" y1="8" x2="50" y2="56" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#D8B36A"/>
+      <stop offset="42%" stop-color="#9B6B2C"/>
+      <stop offset="68%" stop-color="#6F491F"/>
+      <stop offset="100%" stop-color="#BC873B"/>
+    </linearGradient>
+    <filter id="fine-line-shadow" x="0" y="0" width="64" height="64" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy=".42" stdDeviation=".38" flood-color="#24170A" flood-opacity=".18"/>
+    </filter>
+    <filter id="dot-shadow" x="25.5" y="25.5" width="13" height="13" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx=".18" dy=".58" stdDeviation=".54" flood-color="#1D1207" flood-opacity=".3"/>
+    </filter>
+  </defs>
+  <g id="calibration-frame" fill="none" stroke="url(#brass-stroke)" stroke-width="1.03" stroke-linecap="round" stroke-linejoin="round" filter="url(#fine-line-shadow)">
+    <g id="outer-ring">
+      <circle cx="32" cy="32" r="28.85"/>
+      <circle cx="32" cy="32" r="24.05" opacity=".64"/>
+    </g>
+    <g id="inner-rings" opacity=".88">
+      <path d="M17.15 26.35A17.15 17.15 0 0 1 27.1 15.75"/>
+      <path d="M36.9 15.75A17.15 17.15 0 0 1 46.85 26.35"/>
+      <path d="M17.15 37.65A17.15 17.15 0 0 0 27.1 48.25"/>
+      <path d="M36.9 48.25A17.15 17.15 0 0 0 46.85 37.65"/>
+      <path d="M13.95 25.95A20.55 20.55 0 0 1 50.05 25.95" opacity=".55"/>
+      <path d="M13.95 38.05A20.55 20.55 0 0 0 50.05 38.05" opacity=".55"/>
+      <path d="M18.9 20.1A20.7 20.7 0 0 1 21.15 17.95" opacity=".22"/>
+      <path d="M45.1 20.1A20.7 20.7 0 0 0 42.85 17.95" opacity=".22"/>
+      <path d="M18.9 43.9A20.7 20.7 0 0 0 21.15 46.05" opacity=".22"/>
+      <path d="M45.1 43.9A20.7 20.7 0 0 1 42.85 46.05" opacity=".22"/>
+    </g>
+    <g id="cardinal-ticks">
+      <path d="M32 5.1v3.45"/>
+      <path d="M32 12.4v3.6" opacity=".56"/>
+      <path d="M32 48v3.6" opacity=".56"/>
+      <path d="M32 55.45v3.45"/>
+      <path d="M5.1 32h3.45"/>
+      <path d="M12.45 32h3.55" opacity=".42"/>
+      <path d="M48 32h3.55" opacity=".42"/>
+      <path d="M55.45 32h3.45"/>
+      <path d="M18.5 18.5l2.05 2.05" opacity=".22"/>
+      <path d="M45.5 18.5l-2.05 2.05" opacity=".22"/>
+      <path d="M18.5 45.5l2.05-2.05" opacity=".22"/>
+      <path d="M45.5 45.5l-2.05-2.05" opacity=".22"/>
+    </g>
+    <g id="diamond-structure" opacity=".86">
+      <path d="M32 15.1C33.55 19.15 35 23.35 36.05 27.75"/>
+      <path d="M32 15.1C30.45 19.15 29 23.35 27.95 27.75"/>
+      <path d="M32 48.9C33.55 44.85 35 40.65 36.05 36.25"/>
+      <path d="M32 48.9C30.45 44.85 29 40.65 27.95 36.25"/>
+      <path d="M32 15.1v-5.15" opacity=".46"/>
+      <path d="M32 48.9v5.15" opacity=".46"/>
+    </g>
+    <g id="eye-geometry" stroke-width="1.18">
+      <path d="M12.75 32C16.55 31.1 20.85 28.35 25.65 25.35C28.35 23.65 31.8 22.92 35.35 23.45C39.55 24.08 43.25 26.3 45.65 29.05"/>
+      <path d="M45.65 34.95C43.25 37.7 39.55 39.92 35.35 40.55C31.8 41.08 28.35 40.35 25.65 38.65C20.85 35.65 16.55 32.9 12.75 32"/>
+      <path d="M12.75 32C15.35 30.25 18.35 29.05 21.95 27.05" opacity=".42"/>
+      <path d="M23.15 28.15C21.95 30.55 21.95 33.45 23.15 35.85" opacity=".34"/>
+      <path d="M42.3 29.65C43.35 30.25 44.45 31.05 45.65 32" opacity=".16"/>
+      <path d="M45.65 32C44.45 32.95 43.35 33.75 42.3 34.35" opacity=".16"/>
+    </g>
+  </g>
+  <g id="brass-proof-dot">
+    <circle cx="32" cy="32" r="4.82" fill="url(#brass-proof-radial)" filter="url(#dot-shadow)"/>
+    <circle cx="32" cy="32" r="4.82" fill="none" stroke="#68431D" stroke-width=".55"/>
+    <circle cx="30.55" cy="30.45" r="1.35" fill="#FFF5D7" opacity=".52"/>
+    <path d="M28.85 33.15A3.65 3.65 0 0 0 35.05 35.1" fill="none" stroke="#E6BE66" stroke-width=".48" stroke-linecap="round" opacity=".54"/>
+    <path d="M35.05 35.18A4.55 4.55 0 0 1 28.9 34.95" fill="none" stroke="#432B14" stroke-width=".48" stroke-linecap="round" opacity=".42"/>
+  </g>
+</svg>
