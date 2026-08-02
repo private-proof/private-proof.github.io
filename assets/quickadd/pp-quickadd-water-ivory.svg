@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-labelledby="title desc">
+  <title id="title">pp-quickadd-water</title>
+  <desc id="desc">Production Editorial Water Quick Add icon.</desc>
+  <defs>
+    <radialGradient id="brass" cx="35%" cy="28%" r="72%">
+      <stop offset="0%" stop-color="#E7C98A"/>
+      <stop offset="58%" stop-color="#B4823F"/>
+      <stop offset="100%" stop-color="#6F481F"/>
+    </radialGradient>
+  </defs>
+  <g fill="none" stroke="#6F5841" stroke-width="1.85" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M32 10C26 19 20 26 20 35a12 12 0 0 0 24 0c0-9-6-16-12-25z"/>
+    <path d="M18 47q14 7 28 0M22 52q10 5 20 0" opacity="0.78"/>
+    <path d="M28.5 31c-2.5 3.5-2 7.5 1.5 9" opacity="0.52"/>
+    <circle cx="32" cy="34.5" r="2.6" fill="url(#brass)" stroke="none"/>
+    <circle cx="31.2" cy="33.6" r="0.70" fill="#FFF3CF" fill-opacity="0.75" stroke="none"/>
+  </g>
+</svg>

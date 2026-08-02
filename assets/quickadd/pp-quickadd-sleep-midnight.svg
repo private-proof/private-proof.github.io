@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-labelledby="title desc">
+  <title id="title">pp-quickadd-sleep</title>
+  <desc id="desc">Production Editorial Sleep Quick Add icon.</desc>
+  <defs>
+    <radialGradient id="brass" cx="35%" cy="28%" r="72%">
+      <stop offset="0%" stop-color="#E6C77D"/>
+      <stop offset="58%" stop-color="#A77332"/>
+      <stop offset="100%" stop-color="#68431E"/>
+    </radialGradient>
+  </defs>
+  <g fill="none" stroke="#B58A50" stroke-width="1.85" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M14 31 Q32 45 50 31 Q32 39 14 31 Z"/>
+    <path d="M20 34l-3 5M26 36l-1.5 6M32 37v6M38 36l1.5 6M44 34l3 5"/>
+    <path d="M24 28.5Q32 24 40 28.5" opacity="0.5"/>
+
+  </g>
+</svg>
